@@ -286,7 +286,7 @@ h6 {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/data-wall.jpg") top right no-repeat;
+    background: url("https://www.pexels.com/photo/person-pointing-paper-line-graph-590041/") top right no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -356,6 +356,11 @@ h6 {
         margin-top: 10px;
         font-size: 20px;
         line-height: 24px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #hero {
+        background-position: center center; /* Center the background image */
     }
 }
 
